@@ -1,0 +1,47 @@
+.panel-heading {
+  background: blue;
+  color: white;
+  font-weight: bold;
+}
+
+input[type="radio"] + label {
+  padding: 5px 10px;
+}
+
+.panel-default {
+  background-color: #f5f5f5;
+  border-color: #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.panel-default .panel-heading {
+  background-color: rgb(84, 100, 153);
+  color: whitesmoke;
+  font-weight: bold;
+  border-color: #ddd;
+  border-radius: 5px 5px 0 0;
+}
+
+.panel-default .panel-body {
+  padding: 15px;
+}
+
+.button-row {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.button-row .btn-reset {
+  background-color: rgb(37, 66, 163);
+  color: whitesmoke;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.button-row .btn-submit {
+  background-color: rgb(48, 168, 74);
+  color: whitesmoke;
+  display: inline-block;
+}
